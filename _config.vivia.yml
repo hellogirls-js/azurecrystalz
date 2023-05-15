@@ -1,0 +1,56 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+  Terms of Service: /tos
+rss: /atom.xml
+
+home:
+  style: default           # default, detail
+
+# Banner
+banner:
+  enable: true         # Display banner
+  url: https://cdn.discordapp.com/attachments/1064543829807595580/1107135747670167642/dave-netto-wWYwYiCoVwI-unsplash.jpg
+  position: center         # Specifies the alignment of the image, see the "object-position" property in CSS
+  onAllPages: true         # Display banner on all pages
+
+# Appearence
+hue: 0                  # The hue of the theme color (e.g. red: 0, orange: 60, blue: 260, purple: 300, pink: 345)
+
+# Sidebar
+sidebar:
+  widgets:                 # Plugins to be enabled (profile, category, tag, archive, recent_posts)
+    normal:                # Scroll along with the page
+      - profile
+    sticky:                # Stick to the top of the page
+      - category
+      - tag
+      - archive
+      - recent_posts
+
+# Widget behavior
+archive_type: 'monthly'
+recent_posts_limits: 5
+
+# Personal info
+avatar: https://media.discordapp.net/attachments/1064543829807595580/1105328985514201179/IMG_4139.png
+author: aurora
+subtitle: crazywinkP
+links:
+  - name: Twitter
+    icon: fa-brands fa-twitter      # Find icon codes at https://fontawesome.com/search
+    url: https://twitter.com/azurecrystalz
+  - name: Steam
+    icon: fa-brands fa-tumblr
+    url: https://azurecrystalz.tumblr.com
+  - name: GitHub
+    icon: fa-regular fa-message-smile
+    url: https://curiouscat.live/azurecrystalz
+
+comment:
+  valine:
+    enable: false
+    appId: 
+    appKey: 
